@@ -8,6 +8,7 @@ then
                 tar xfvz /etc.tgz
         fi
 
+        # cleanup
         touch /etc/firstrun
         rm /etc.tgz
 fi
